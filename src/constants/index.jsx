@@ -1,3 +1,23 @@
+const TEMP = "test"
+import { FaXTwitter } from "react-icons/fa6"
+import { FaDiscord, FaInstagram} from "react-icons/fa"
+
+export const SOCIAL_MEDIA_LINKS = [
+    {
+      href: "https://discord.com/invite/ZesVYMSJWe",
+      icon: <FaDiscord fontSize={30} className="hover:opacity-80 transition ease-in-out hover:-translate-y-1 duration-300" target="_blank" />,
+    },
+  
+    {
+      href: "https://www.instagram.com/rowanieee/",
+      icon: <FaInstagram fontSize={30} className="hover:opacity-80 transition ease-in-out hover:-translate-y-1 duration-300" target="_blank" />,
+    },
+    {
+      href: "https://twitter.com/RowanIEEE",
+      icon: <FaXTwitter fontSize={30} className="hover:opacity-80 transition ease-in-out hover:-translate-y-1 duration-300" target="_blank" />,
+    },
+  ];
+
 export const LINKS = [
     { text: "About Us", targetId: "about" },
     { text: "Events", targetId: "events" },
@@ -5,6 +25,7 @@ export const LINKS = [
     { text: "Photos", targetId: "photos" },
     { text: "Contact", targetId: "contact" },
 ];
+
 
 export const ABOUT = {
     header: "So, what is IEEE?", 
