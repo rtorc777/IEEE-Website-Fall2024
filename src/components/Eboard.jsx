@@ -4,7 +4,7 @@ import EboardCard from "./EboardCard"
 const Eboard = () => {
   return (
     <section className="container mx-auto my-8" id="eboard">
-        <h2 className="mb-8 text-center text-5xl tracking-tighter lg:text-6xl pt-14">E-Board</h2>
+        <h2 className="mb-8 text-center text-5xl tracking-tighter lg:text-6xl pt-14">Meet the E-Board!</h2>
 
         <div className='grid grid-cols-1 gap-20 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 px-10'>
             {EBOARD.map((member, index) => (

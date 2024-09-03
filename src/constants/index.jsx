@@ -72,7 +72,7 @@ export const EVENTS = [
     {
         image: gm,
         title: "General Meetings",
-        description: "General meetings are held bi-weekly on Fridays at 2PM in the Engineering 321. Typically, we will talk about upcoming events followed by a small presentation, seminar, or guest speaker. Pizza and drinks are provided!"
+        description: "General meetings are held bi-weekly on Fridays at 2PM in Engineering 321. Typically, we will talk about upcoming events followed by a small presentation, seminar, or guest speaker. Pizza and drinks are provided!"
     },
     {
         image: paintball,
