@@ -151,7 +151,7 @@ export const EBOARD = [
         image: franklin,
         name: "Franklin Tejada",
         position: "SGA Representative",
-        contact: "torcul85@students.rowan.edu"
+        contact: "tejada88@students.rowan.edu"
     },
     {
         image: kevin,

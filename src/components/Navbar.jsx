@@ -32,7 +32,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" width={50} height={22} />
             <div className="hidden space-x-6 lg:flex">
                 {LINKS.map((link,index) => (
-                    <a key={index} href={`#${link.targetId}`} className={`text-sm ${index !== 0 ? "border-l-2 border-neutral-300/20 pl-2": ""} hover: opacity-50`} 
+                    <a key={index} href={`#${link.targetId}`} className={`font-bold text-white text-sm ${index !== 0 ? "border-l-2 border-neutral-300/20 pl-2": ""} hover: opacity-50`} 
                     onClick={(e) => handleScroll(e, link.targetId)}>
                         {link.text}
                     </a>
