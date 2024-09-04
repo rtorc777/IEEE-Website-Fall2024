@@ -15,7 +15,8 @@ const About = () => {
             <motion.div className="w-full px-4 lg:w-1/2"
                         initial={{ opacity: 0, x:50 }} 
                         whileInView={{ opacity: 1, x:0 }}
-                        transition={{ duration: .75 }}>
+                        transition={{ duration: .75 }}
+                        viewport={{once: true}}>
                 <h2 className="text-3xl tracking-tighter lg:text-4xl">
                     {ABOUT.header}
                 </h2>
