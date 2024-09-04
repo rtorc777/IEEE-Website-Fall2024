@@ -1,4 +1,3 @@
-const TEMP = "test"
 import { FaXTwitter } from "react-icons/fa6"
 import { FaDiscord, FaInstagram} from "react-icons/fa"
 
@@ -18,6 +17,156 @@ import elizabeth from "../assets/eboard/elizabeth.jpg"
 import rico from "../assets/eboard/rico.jpg"
 import franklin from "../assets/eboard/franklin.png"
 import kevin from "../assets/eboard/kevin.jpg"
+
+import ph1 from "../assets/photos/ph1.jpg"
+import ph2 from "../assets/photos/ph2.jpg"
+import ph3 from "../assets/photos/ph3.jpg"
+import ph4 from "../assets/photos/ph4.jpg"
+import ph5 from "../assets/photos/ph5.jpg"
+import ph6 from "../assets/photos/ph6.jpg"
+import ph7 from "../assets/photos/ph7.jpg"
+import ph8 from "../assets/photos/ph8.jpg"
+import ph9 from "../assets/photos/ph9.jpg"
+import ph10 from "../assets/photos/ph10.jpg"
+import ph11 from "../assets/photos/ph11.jpg"
+import ph12 from "../assets/photos/ph12.jpg"
+import ph13 from "../assets/photos/ph13.jpg"
+import ph14 from "../assets/photos/ph14.jpg"
+import ph15 from "../assets/photos/ph15.jpg"
+import ph16 from "../assets/photos/ph16.jpg"
+import ph17 from "../assets/photos/ph17.jpg"
+import ph18 from "../assets/photos/ph18.jpg"
+
+
+export const ph = [
+    {
+       src: ph1,
+       width: 400,
+       height: 300,
+       alt: "ProfHacks",
+       caption: "ProfHacks 2024"
+    },
+    {
+        src: ph2,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph3,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph4,
+        width: 300,
+        height: 400,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph5,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph6,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph7,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph8,
+        width: 300,
+        height: 400,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph16,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph10,
+        width: 300,
+        height: 400,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph11,
+        width: 300,
+        height: 400,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph12,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph13,
+        width: 300,
+        height: 400,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph14,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph15,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph9,
+        width: 300,
+        height: 400,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph17,
+        width: 400,
+        height: 300,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+    {
+        src: ph18,
+        width: 300,
+        height: 400,
+        alt: "ProfHacks",
+        caption: "ProfHacks 2024"
+    },
+
+ ];
 
 export const SOCIAL_MEDIA_LINKS = [
     {

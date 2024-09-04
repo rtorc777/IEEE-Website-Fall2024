@@ -1,5 +1,6 @@
 import about from "../assets/about.jpeg"
 import { ABOUT } from "../constants"
+import { motion } from "framer-motion"
 
 const About = () => {
   return (
@@ -11,7 +12,10 @@ const About = () => {
                 <img src={about} className="rounded-3xl lg:-rotate-3 shadow-lg shadow-slate-400" />
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
+            <motion.div className="w-full px-4 lg:w-1/2"
+                        initial={{ opacity: 0, x:50 }} 
+                        whileInView={{ opacity: 1, x:0 }}
+                        transition={{ duration: .75 }}>
                 <h2 className="text-3xl tracking-tighter lg:text-4xl">
                     {ABOUT.header}
                 </h2>
@@ -22,7 +26,7 @@ const About = () => {
                 <p className="m-8 text-xl leading-relaxed tracking-tight lg:max-w-xl whitespace-pre-wrap">
                         {ABOUT.content}
                 </p>
-            </div>
+            </motion.div>
         </div>
 
     </section>

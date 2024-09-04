@@ -1,11 +1,16 @@
 import { EVENTS } from "../constants"
+import { motion } from "framer-motion"
 
 export const Events = () => {
   return (
     <section className="container mx-auto my-8" id="events">
         <h2 className="mb-8 text-center text-5xl tracking-tighter lg:text-6xl pt-14">Events</h2>
 
-        <div className="container mx-auto px-4">
+        <motion.div className="container mx-auto px-4"
+            initial={{ opacity: 0}} 
+            whileInView={{ opacity: 1}}
+            transition={{ duration: .75 }}
+            viewport={{once: true}}>
             {EVENTS.map((event, index) =>(
                 <div key={index} className="flex items-center border-b-4 border-dotted border-neutral-700/40 py-2"> 
                     <div className="w-1/3 flex-shrink-0">
@@ -21,7 +26,7 @@ export const Events = () => {
                     </div>
                 </div>
             ))}
-        </div>
+        </motion.div>
     </section>
   )
 }
