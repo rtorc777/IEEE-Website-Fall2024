@@ -5,6 +5,7 @@ import Events from "./components/Events"
 import Profhacks from "./components/Profhacks"
 import Eboard from "./components/Eboard"
 import ContactForm from "./components/ContactForm"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Profhacks />
       <Eboard />
       <ContactForm />
+      <Footer />
     </main>
   )
 }
