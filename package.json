@@ -1,6 +1,6 @@
 {
-  "homepage": "http://rowanieee.org",
-  "name": "ieee-website-fall2024",
+  "homepage": "https://rowanieee.org",
+  "name": "ieee-website-spring2025",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "18": "^0.0.0",
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^11.4.0",
     "react": "^18.3.1",
@@ -20,6 +21,7 @@
     "react-grid-gallery": "^1.0.1",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.3.0",
+    "react-router-dom": "^6.28.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1"
   },
@@ -33,7 +35,7 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.2.0",
     "globals": "^15.9.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",

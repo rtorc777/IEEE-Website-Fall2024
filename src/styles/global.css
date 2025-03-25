@@ -1,0 +1,51 @@
+.game-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .word {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+  }
+  
+  .word.selected {
+    background-color: #cce5ff;
+  }
+  
+  .word.locked {
+    background-color: #d4edda;
+    cursor: not-allowed;
+  }
+  
+  .validate-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .validate-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .validate-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

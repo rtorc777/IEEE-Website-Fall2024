@@ -5,18 +5,19 @@ import paintball from "../assets/paintball.jpg"
 import gm from "../assets/gm.png"
 import workshop from "../assets/workshop.jpg"
 
-import craig from "../assets/eboard/craig.png"
 import dom from "../assets/eboard/dom.jpg"
-import matt from "../assets/eboard/matt.jpg"
-import chelsea from "../assets/eboard/chelsea.jpg"
-import elise from "../assets/eboard/elise.jpg"
+import kasey from "../assets/eboard/kasey.jpg"
+import marcelo from "../assets/eboard/marcelo.jpg"
+import mike from "../assets/eboard/mike.jpg"
+import anchal from "../assets/eboard/anchal.png"
+import aaryn from "../assets/eboard/aaryn.jpg"
+import sarah from "../assets/eboard/sarah.jpg"
+import liz from "../assets/eboard/liz.jpg"
 import aidan from "../assets/eboard/aidan.jpg"
-import henry from "../assets/eboard/henry.jpg"
-import john from "../assets/eboard/john.jpeg"
-import elizabeth from "../assets/eboard/elizabeth.jpg"
-import rico from "../assets/eboard/rico.jpg"
-import franklin from "../assets/eboard/franklin.png"
-import kevin from "../assets/eboard/kevin.jpg"
+import chelsea from "../assets/eboard/chelsea.jpg"
+import justin from "../assets/eboard/justin.jpg"
+import dan from "../assets/eboard/dan.jpg"
+import john from "../assets/eboard/john.jpg"
 
 import ph1 from "../assets/photos/ph1.jpg"
 import ph2 from "../assets/photos/ph2.jpg"
@@ -237,22 +238,58 @@ export const EVENTS = [
 
 export const EBOARD = [
     {
-        image: craig,
-        name: "Craig Droke",
-        position: "Chair",
-        contact: "drokec87@students.rowan.edu"
-    },
-    {
         image: dom,
-        name: "Dom Ficarra",
-        position: "Vice Chair",
+        name: "Dominic Ficarra",
+        position: "Chair",
         contact: "ficarr85@students.rowan.edu"
     },
     {
-        image: matt,
-        name: "Matt Burney",
+        image: kasey,
+        name: "Kasey Minsky",
+        position: "Vice Chair",
+        contact: "minsky94@students.rowan.edu"
+    },
+    {
+        image: marcelo,
+        name: "Marcelo Bisicchia",
         position: "Treasurer",
-        contact: "mcburn92@students.rowan.edu"
+        contact: "bisicc35@students.rowan.edu"
+    },
+    {
+        image: mike,
+        name: "Michael Rusnak",
+        position: "Activities Chair",
+        contact: "rusnak13@students.rowan.edu"
+    },
+    {
+        image: anchal,
+        name: "Anchal Patel",
+        position: "PR Chair",
+        contact: "patela28@students.rowan.edu"
+    },
+    {
+        image: aaryn,
+        name: "Aaryn Myers",
+        position: "Workshop Chair",
+        contact: "myersa86@students.rowan.edu"
+    },
+    {
+        image: sarah,
+        name: "Sarah Ely",
+        position: "Tournaments Chair",
+        contact: "elysar72@students.rowan.edu"
+    },
+    {
+        image: liz,
+        name: "Elisabeth Yap",
+        position: "Service Chair",
+        contact: "yapeli32@students.rowan.edu"
+    },
+    {
+        image: aidan,
+        name: "Aidan O’Loughlin",
+        position: "Fundraising Chair",
+        contact: "olough74@rowan.edu"
     },
     {
         image: chelsea,
@@ -261,51 +298,21 @@ export const EBOARD = [
         contact: "smallc17@students.rowan.edu"
     },
     {
-        image: elise,
-        name: "Elise Heim",
-        position: "Activities Chair",
-        contact: "heimel27@students.rowan.edu"
+        image: justin,
+        name: "Justin Dougherty",
+        position: "SGA Representative",
+        contact: "doughe18@students.rowan.edu"
     },
     {
-        image: aidan,
-        name: "Aidan Sharpe",
-        position: "Workshop Chair",
-        contact: "sharpe23@students.rowan.edu"
-    },
-    {
-        image: henry,
-        name: "Henry Conde",
-        position: "Tournaments Chair",
-        contact: "condeh59@students.rowan.edu"
+        image: dan,
+        name: "Daniel Altzman",
+        position: "SGA Representative",
+        contact: "altzma14@rowan.edu"
     },
     {
         image: john,
-        name: "John Schiede",
-        position: "Service Chair",
-        contact: "schied13@students.rowan.edu"
-    },
-    {
-        image: elizabeth,
-        name: "Elisabeth Yap",
-        position: "PR Chair",
-        contact: "yapeli32@students.rowan.edu"
-    },
-    {
-        image: rico,
-        name: "Rico Torculas",
+        name: "John Radulic",
         position: "Webmaster",
-        contact: "torcul85@students.rowan.edu"
+        contact: "raduli92@students.rowan.edu"
     },
-    {
-        image: franklin,
-        name: "Franklin Tejada",
-        position: "SGA Representative",
-        contact: "tejada88@students.rowan.edu"
-    },
-    {
-        image: kevin,
-        name: "Kevin Hack",
-        position: "Chancellor of ProfHacks",
-        contact: "hackke83@students.rowan.edu"
-    }
 ]
